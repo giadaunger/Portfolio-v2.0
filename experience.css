@@ -1,0 +1,15 @@
+h1{
+    text-align: center;
+    border-bottom: 2px black solid;
+}
+
+td{
+    padding: 20px;
+    padding-top: 60px;
+    font-size: 1.2em;
+}
+
+a:hover{
+    color: #7878f8;
+    border-bottom: 2px solid #7878f8;
+}

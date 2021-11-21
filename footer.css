@@ -1,0 +1,14 @@
+.footerList{
+    list-style: none;
+    float: right;
+    border-bottom: black 2px solid;
+    padding: 10px;
+}
+
+.footerLink{
+    padding: 2.5px;
+}
+
+.footerLink a:hover{
+    color: #5f5fe7;
+}

@@ -1,0 +1,24 @@
+.logo{
+    width: 100px;
+    height: 100px;
+}
+
+.navbarList{
+    list-style: none;
+    float: right;
+    font-size: 2.0em;
+}
+.navbarLink{
+    display: inline;
+    padding: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.navbarLink a:hover{
+    color: white;
+    border-bottom: 2px white solid;
+}

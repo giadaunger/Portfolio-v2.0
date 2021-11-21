@@ -1,0 +1,62 @@
+.right{
+    max-width: 50ch;
+    padding-left: 20px;
+}
+
+.mainPicture{
+    float: right;
+    width: 350px;
+    border: 2px black solid;
+    border-radius: 50%;
+    box-shadow: 5px 10px 8px #888888;
+}
+
+h1{
+    margin-bottom: 0%;
+}
+
+h2{
+    margin-top: 0%;
+}
+
+.skill{
+    border: #C8C8FB 5px solid;
+    padding: 80px;
+    margin: 20px;
+    font-size: 2.0em;
+    text-align: center;
+    box-shadow: 5px 10px 8px #888888;
+}
+
+.skills-h1{
+    text-align: center;
+    border-bottom: 2px black solid;
+    padding-top: 50px;
+}
+
+.skills{
+    padding: 20px;
+    max-width: 100ch;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.resumeButton{
+    width: 100%;
+    padding: 15px;
+    border: 2px black solid;
+    border-radius: 50px;
+    font-size: 1.2em;
+    margin-top: 50px;
+    box-shadow: 5px 10px 8px #888888;
+    background-color: white;
+}
+
+.resumeButton:hover{
+    color: #babaf7;
+    border: 2px solid #babaf7;
+}
+
+p{
+    font-size: 1.1em;
+}

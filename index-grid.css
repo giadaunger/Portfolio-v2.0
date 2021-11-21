@@ -1,0 +1,37 @@
+.index-grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-auto-rows: minmax(100px, auto);
+    grid-template-areas: 
+    'navbar navbar navbar'
+    'one one one'
+    'two two two'
+    'footer footer footer';
+}
+
+.main {
+    color: black;
+    padding: 20px;
+}
+
+.navbar{
+    grid-area: navbar;
+    background-color: #C8C8FB;
+}
+
+.one{
+    grid-area: one;
+    display: grid;
+    grid-template-areas: 
+    'left right'
+    'left right';
+}
+
+.two{
+    grid-area: two;
+}
+
+.footer{
+    grid-area: footer;
+    background-color: #C8C8FB;
+}
